@@ -22,8 +22,196 @@
     <section>
       <!-- Most-recently-visited -->
     </section>
-    <section>
+    <section class="sectionOffers">
       <!-- Offers -->
+      <div class="headerOffers">
+        <h1>Ofertas</h1>
+        <a>
+          <p>Ver todas as ofertas</p>
+          <img src="assets/icons/others/arrow.svg" />
+        </a>
+      </div>
+      <div class="cardsOffers">
+        <div class="cardMain">
+          <div class="carouselWrapper">
+            <div class="badge">
+              <span>Usado</span>
+            </div>
+            <div class="bookmark">
+              <ion-icon name="heart-outline"/>
+            </div>
+            <button class="buttonCarouselLeft" id="buttonLeft" onclick="handlePreviousPicture()">
+              <img src="assets/icons/others/chevronLeft.svg" />
+            </button>
+            <div class="carousel">
+                <div class="containerCarousel" id="img">
+                  <img src="assets/carsImages/mercedes.png" />
+                  <img src="assets/carsImages/mercedes.png" />
+                  <img src="assets/carsImages/mercedes.png" />
+                  <img src="assets/carsImages/mercedes.png" />
+                </div>
+              </div>
+              <button class="buttonCarouselRight" id="buttonRight" onclick="handleNextPicture()">
+                <img src="assets/icons/others/chevronRight.svg" />
+              </button>
+          </div>
+          <div class="cardInfo">
+            <div class="details">
+              <p>2014</p>
+              <h2>Mercedes Benz Convertible Coupe</h2>
+              <span>$25,880</span>
+              <div class="location">
+                <img src="assets/icons/others/pin.svg" />
+                <p>São Paulo, SP</p>
+              </div>
+            </div>
+            <div>
+              <label class="check">
+                <p>Compare</p>
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="detailsCar">
+            <div class="cardDetail">
+              <img src="assets/icons/others/dashboard.svg" />
+              <p>48k mi</p>
+            </div>
+            <div class="cardDetail">
+              <img src="assets/icons/others/gearbox.svg" />
+              <p>Automático</p>
+            </div>
+            <div class="cardDetail">
+              <img src="assets/icons/others/petrol.svg" />
+              <p>Gasolina</p>
+            </div>
+          </div>
+        </div>
+        <div class="secondaryCards">
+          <div class="otherCarsCard">
+            <div class="carouselWrapper-sm">
+              <div class="badge">
+                <span>Usado</span>
+              </div>
+              <div class="bookmark">
+                <ion-icon name="heart-outline"/>
+              </div>
+              <button class="buttonCarouselLeft" id="buttonLeft" onclick="handlePreviousPicture2()">
+                <img src="assets/icons/others/chevronLeft.svg"/>
+              </button>
+              <div class="carousel-sm">
+                  <div class="containerCarousel" id="img2">
+                    <img src="assets/carsImages/mercedesSedan.png" />
+                    <img src="assets/carsImages/mercedesSedan.png" />
+                    <img src="assets/carsImages/mercedesSedan.png" />
+                    <img src="assets/carsImages/mercedesSedan.png" />
+                    <img src="assets/carsImages/mercedesSedan.png" />
+                  </div>
+                </div>
+                <button class="buttonCarouselRight" id="buttonRight" onclick="handleNextPicture2()">
+                  <img src="assets/icons/others/chevronRight.svg" />
+                </button>
+            </div>
+            <div class="cardInfoSecondary">
+              <div class="details">
+                <div class="headerDetails">
+                  <p>2014</p>
+                  <div class="headerCheckBox">
+                    <label class="check">
+                      <p>Compare</p>
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <h2>Mercedes Benz Convertible Coupe</h2>
+                <span>$25,880</span>
+                <div class="locationSecondary">
+                  <img src="assets/icons/others/pin.svg" />
+                  <p>São Paulo, SP</p>
+                </div>
+              </div>
+              <div class="line"></div>
+            <div class="detailsCar">
+              <div class="cardDetailSecondary">
+                <img src="assets/icons/others/dashboard.svg"/>
+                <p>48k mi</p>
+              </div>
+              <div class="cardDetailSecondary">
+                <img src="assets/icons/others/gearbox.svg"/>
+                <p>Automático</p>
+              </div>
+              <div class="cardDetailSecondary">
+                <img src="assets/icons/others/petrol.svg"/>
+                <p>Gasolina</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="otherCarsCard">
+          <div class="carouselWrapper-sm">
+            <div class="badge">
+              <span>Usado</span>
+            </div>
+            <div class="bookmark">
+              <ion-icon name="heart-outline"/>
+            </div>
+            <button class="buttonCarouselLeft" id="buttonLeft" onclick="handlePreviousPicture3()">
+              <img src="assets/icons/others/chevronLeft.svg"/>
+            </button>
+            <div class="carousel-sm">
+                <div class="containerCarousel" id="img3">
+                  <img src="assets/carsImages/mercedesSedan.png" />
+                  <img src="assets/carsImages/mercedesSedan.png" />
+                  <img src="assets/carsImages/mercedesSedan.png" />
+                  <img src="assets/carsImages/mercedesSedan.png" />
+                  <img src="assets/carsImages/mercedesSedan.png" />
+                </div>
+              </div>
+              <button class="buttonCarouselRight" id="buttonRight" onclick="handleNextPicture3()">
+                <img src="assets/icons/others/chevronRight.svg" />
+              </button>
+          </div>
+          <div class="cardInfoSecondary">
+            <div class="details">
+              <div class="headerDetails">
+                <p>2014</p>
+                <div class="headerCheckBox">
+                  <label class="check">
+                    <p>Compare</p>
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+              <h2>Mercedes Benz Convertible Coupe</h2>
+              <span>$25,880</span>
+              <div class="locationSecondary">
+                <img src="assets/icons/others/pin.svg" />
+                <p>São Paulo, SP</p>
+              </div>
+            </div>
+            <div class="line"></div>
+          <div class="detailsCar">
+            <div class="cardDetailSecondary">
+              <img src="assets/icons/others/dashboard.svg"/>
+              <p>48k mi</p>
+            </div>
+            <div class="cardDetailSecondary">
+              <img src="assets/icons/others/gearbox.svg"/>
+              <p>Automático</p>
+            </div>
+            <div class="cardDetailSecondary">
+              <img src="assets/icons/others/petrol.svg"/>
+              <p>Gasolina</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
     </section>
     <section>
       <!-- Brands -->
@@ -46,7 +234,10 @@
     <section>
       <!-- Footer News -->
     </section>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
-
